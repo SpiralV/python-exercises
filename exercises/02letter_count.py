@@ -31,3 +31,30 @@
 # letter_count('banana')
 #
 # > {'a': 3, 'b': 1, 'n': 3}
+
+# dd = {}
+# dd["foo"] = 1
+# dd["foo"] = +1
+# def letter_count():
+
+#     if "foo" in dd:
+#         print(dd["foo"])
+# letter_count()
+
+def letter_count(string):
+    new_dictionary = {}
+    for letter in string:
+        # print(letter)
+        # new_dictionary[letter] = new_dictionary.get(letter, 0) + 1
+    # print(letter_count(new_dictionary))
+        if letter not in new_dictionary:
+            new_dictionary[letter] = 1
+        else:
+            new_dictionary[letter] = new_dictionary[letter_count] + 1
+
+    return new_dictionary
+
+print(letter_count('banana'))
+
+
+

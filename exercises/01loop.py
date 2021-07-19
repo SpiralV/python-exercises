@@ -13,3 +13,11 @@
 # > Hello there
 # > Hello there
 # > Hello there
+
+statement = 'Hello Classwork'
+num = 4
+def p_times():
+    for i in range(1, 5):
+        if (i):
+            print(statement)
+p_times()
